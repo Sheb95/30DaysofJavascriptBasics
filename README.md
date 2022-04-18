@@ -17,7 +17,14 @@ I will use the following resources to aid me on this journey:
 * CodeWars (practice)
 * The MDN Docs
 
-*But, why are you using two courses?*
-I have them already so why not use them? In all seriousness though, it helps me for more difficult concepts to see/hear different explanations. Additionally, both courses, while offering an indepth look at JavaScript approach it in different ways. The supplmentary course has excercises I can do whereas the main course is more theoretical.
+### *But, why are you using two courses?*
+I have them already so why not use them? In all seriousness though, it helps me for more difficult concepts to see/hear different explanations. Additionally, both courses, while offering an in-depth look at JavaScript approach it in different ways. The supplementary course has exercises I can do whereas the main course is more theoretical. I am willing to change if necessary if it becomes too complicated.
 
+## Structure 
+Most topics won't be covered in a day. Therefore the topics covered will be split up into branches. It will make it alot easier for me to manage my work as well as look back at it. 
 
+## Checklist
+[...] **Day 1** : Introduction to Iterables and Array-like Objects
+* *Topics Covered*: 
+     
+* *Extra Activities*: 
