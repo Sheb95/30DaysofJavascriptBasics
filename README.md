@@ -1,30 +1,39 @@
-# 30 Days of JavaScript Basics
-<img src="https://swiperjs.com/images/libs/js.svg"
-     alt="JavaScript Logo"
-     style="float: right; margin-right: 10px;" />
+# What are "Iterables" and "Array-like Objects"?
 
-## Introduction
-I have set myself a goal to allocate at least one hour a day to revisiting JavaScript fundamentals. I realise that my understanding of how JavaScript works is something that still needs to be worked on. Thus, my objective in doing this challenge is: 
-* Review 📓 and strengthen 🏋️‍♂️ the JavaScript fundamentals that I already have learned.
-* Go into more depth about how JavaScript works. I am the type of learner where knowing the "why" in something or little quirks about it helps me retain information about the topic. There is a chance that I will go down rabbit holes sometimes, but I shall allocate that as an "extra time" activity. 
-* PRACTICE PRACTICE PRACTICE!  I will then implement what I learned in conceptual projects. They won't be pretty but they will serve as little experiments 🧪 for me to investigate further concepts and also break the code. I will also use codewars as a further exercise to reinforce concepts. 
+## Iterables
 
-## Resources 
-I will use the following resources to aid me on this journey: 
-* JavaScript - The Complete Guide 2022 (Beginner + Advanced) (Udemy) (Main)
-* The Complete JavaScript Course 2022: From Zero to Expert! (Udemy) (Supplementary) 
-* FreeCodeCamp (for exercises)
-* CodeWars (practice)
-* The MDN Docs
+-  Can use a for-of loop on it
+-  Not every iterable is an array!!! (e.g, NodeList, String, Map, Sets)
 
-### *But, why are you using two courses?*
-I have them already so why not use them? In all seriousness though, it helps me for more difficult concepts to see/hear different explanations. Additionally, both courses, while offering an in-depth look at JavaScript approach it in different ways. The supplementary course has exercises I can do whereas the main course is more theoretical. I am willing to change if necessary if it becomes too complicated.
+## Array-like Objects
 
-## Structure 
-Most topics won't be covered in a day. Therefore the topics covered will be split up into branches. It will make it alot easier for me to manage my work as well as look back at it. 
+-  Objects that have a length property and use indexes to access items
+-  Other array-likes are: NodeList, Strings
+   -  E.g: ` let word = "hello"; console.log(word[1]); //returns "e"`
 
-## Checklist
-[...] **Day 1** : Introduction to Iterables and Array-like Objects
-* *Topics Covered*: 
-     
-* *Extra Activities*: 
+## Ways of Creating Arrays
+
+There are different ways of creating Arrays. However, the most interesting alternative is the `Array.from()` method.
+`// Arrow function
+Array.from(arrayLike, (element) => { /_ ... _/ } )
+Array.from(arrayLike, (element, index) => { /_ ... _/ } )
+
+// Mapping function
+Array.from(arrayLike, mapFn)
+Array.from(arrayLike, mapFn, thisArg)
+
+// Inline mapping function
+Array.from(arrayLike, function mapFn(element) { /_ ... _/ })
+Array.from(arrayLike, function mapFn(element, index) { /_ ... _/ })
+Array.from(arrayLike, function mapFn(element) { /_ ... _/ }, thisArg)
+Array.from(arrayLike, function mapFn(element, index) { /_ ... _/ }, thisArg)
+`
+
+## Questions
+
+-  the new keyword?
+-  fixed length array? when will you need this?
+
+## More information
+
+-  `Array.from()`: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from
