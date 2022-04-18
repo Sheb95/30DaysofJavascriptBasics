@@ -17,4 +17,12 @@ console.log(yetMoreNumbers);
 //this takes an iterable or an array-like object
 const animal = Array.from("cat");
 console.log(animal); // returns ["c", "a", "t"]
-// takes in
+
+const listItems = document.querySelectorAll("li");
+console.log(listItems);
+// converts node list to real array
+const nodeListToArray = Array.from(listItems);
+//list of li elements and its corresponding properties
+console.log(nodeListToArray);
+//accessig the text of the li element at index 0
+console.log(nodeListToArray[0].innerHTML);

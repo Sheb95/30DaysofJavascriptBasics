@@ -13,21 +13,21 @@
 
 ## Ways of Creating Arrays
 
-There are different ways of creating Arrays. However, the most interesting alternative is the `Array.from()` method.
-<code>// Arrow function
-Array.from(arrayLike, (element) => { /_ ... _/ } )
-Array.from(arrayLike, (element, index) => { /_ ... _/ } )
+There are different ways of creating Arrays. However, the most interesting alternative is the `Array.from()` method which converts an array like object to an array
 
-// Mapping function
-Array.from(arrayLike, mapFn)
-Array.from(arrayLike, mapFn, thisArg)
+## Array.from
 
-// Inline mapping function
-Array.from(arrayLike, function mapFn(element) { /_ ... _/ })
-Array.from(arrayLike, function mapFn(element, index) { /_ ... _/ })
-Array.from(arrayLike, function mapFn(element) { /_ ... _/ }, thisArg)
-Array.from(arrayLike, function mapFn(element, index) { /_ ... _/ }, thisArg)
-</code>
+Is a method that creates a new array instance (shallow-copied) from an array-like or iterable object
+
+method takes in three arguments:
+
+-  an array like object (to convert into array)
+-  a map function that can be called on every element of that converted array
+-  thisArg: I am not sure what this does but according to the docs: "Value to use as this when executing mapFn."
+
+## Experiments:
+
+https://stackblitz.com/edit/js-8fm7cr?file=index.js
 
 ## Questions
 
