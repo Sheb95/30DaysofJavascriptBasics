@@ -14,7 +14,7 @@
 ## Ways of Creating Arrays
 
 There are different ways of creating Arrays. However, the most interesting alternative is the `Array.from()` method.
-`// Arrow function
+<code>// Arrow function
 Array.from(arrayLike, (element) => { /_ ... _/ } )
 Array.from(arrayLike, (element, index) => { /_ ... _/ } )
 
@@ -27,7 +27,7 @@ Array.from(arrayLike, function mapFn(element) { /_ ... _/ })
 Array.from(arrayLike, function mapFn(element, index) { /_ ... _/ })
 Array.from(arrayLike, function mapFn(element) { /_ ... _/ }, thisArg)
 Array.from(arrayLike, function mapFn(element, index) { /_ ... _/ }, thisArg)
-`
+</code>
 
 ## Questions
 
