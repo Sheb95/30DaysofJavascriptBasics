@@ -41,7 +41,7 @@ Most topics won't be covered in a day. Therefore the topics covered will be spli
 -  _Extra Activities_:
    -  Experimenting with Array.from(): Link to my stackblitz sandbox: https://stackblitz.com/edit/js-8fm7cr?file=index.js
    
-[✅] **Day 2** : Data storage in Arrays
+[...] **Day 2** : Data storage in Arrays
 
 -  _Topics Covered_:
   
