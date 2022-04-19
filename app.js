@@ -26,3 +26,22 @@ const nodeListToArray = Array.from(listItems);
 console.log(nodeListToArray);
 //accessig the text of the li element at index 0
 console.log(nodeListToArray[0].innerHTML);
+
+//storing data
+//Arrays of the same type
+const hobbies = ["Cooking", "Sports"];
+//Arrays of different types
+const personalData = [30, "max", { moreDetail: [] }];
+//nested arrays
+const analyticsData = [
+   [1, 1.6],
+   [-5.4, 2.1],
+];
+
+//loop over outer array
+for (data of analyticsData) {
+   //loops over inner array
+   for (pointData of data) {
+      console.log(pointData);
+   }
+}
