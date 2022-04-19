@@ -44,3 +44,12 @@ https://stackblitz.com/edit/js-8fm7cr?file=index.js
 
 -  Arrays are index based but the length of the array is not the same as the highest index of an array
 -  you can have multi-dimentional arrays where arrays have different data types/ arrays nested in arrays
+
+## Manipulating Arrays; Adding and Removing Data
+
+-  array.push -> adds element to end of array
+-  array.unshift -> adds element to start of an array
+-  array.pop() -> removes last element from Array and returns it
+-  array.shift -> removes first element in Array
+-  because unshift and shift impacts all the elements in the array (shifting array left or right when executed), these methods are slower performance wise than push and pop
+-  selecting direct index then change value `array[1] = "yay"`

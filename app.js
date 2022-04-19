@@ -45,3 +45,29 @@ for (data of analyticsData) {
       console.log(pointData);
    }
 }
+
+//manipulating data in arrays
+let food = ["apple", "pear"];
+console.log("original array:");
+console.log(food);
+
+food.push("doughnuts");
+console.log(`food ${food[food.length - 1]} added to end of list `);
+console.log(food);
+
+food.unshift("chips");
+console.log(`food ${food[0]} added to start of list `);
+console.log(food);
+
+food.shift();
+console.log(`food at start of list removed `);
+console.log(food);
+
+food.pop();
+console.log(`last food in list removed`);
+console.log(food);
+
+console.log("value at index 1 has been changed.");
+
+food[0] = "oranges";
+console.log(food);
