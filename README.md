@@ -40,10 +40,17 @@ Most topics won't be covered in a day. Therefore the topics covered will be spli
    -  An introduction to Array.from()
 -  _Extra Activities_:
    -  Experimenting with Array.from(): Link to my stackblitz sandbox: https://stackblitz.com/edit/js-8fm7cr?file=index.js
-   
-[...] **Day 2** : Data storage in Arrays
+
+[✅] **Day 2** : Data storage in Arrays
 
 -  _Topics Covered_:
-  
+-  Different types of data that can be stored in arrays (i.e multi-dimensional)
+-  review of push(), pop(), shift() and unshift();
+
 -  _Extra Activities_:
-  
+   FreeCodeCamp Excercises
+-  Creating a basic Array
+-  Nesting one array in another
+-  Access Array Data with Indexes
+-  Modify Array Data with Indexes
+   ❗ IMPORTANT REVIEW OBJECTS BECAUSE I CLEARLY HAVE FORGOTTEN
