@@ -11,6 +11,8 @@
 -  Other array-likes are: NodeList, Strings
    -  E.g: ` let word = "hello"; console.log(word[1]); //returns "e"`
 
+A NUMBER IS NOT ITERABLE!
+
 ## Ways of Creating Arrays
 
 There are different ways of creating Arrays. However, the most interesting alternative is the `Array.from()` method which converts an array like object to an array
@@ -37,3 +39,8 @@ https://stackblitz.com/edit/js-8fm7cr?file=index.js
 ## More information
 
 -  `Array.from()`: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from
+
+## Data storage
+
+-  Arrays are index based but the length of the array is not the same as the highest index of an array
+-  you can have multi-dimentional arrays where arrays have different data types/ arrays nested in arrays
