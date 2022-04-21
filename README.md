@@ -54,3 +54,12 @@ Most topics won't be covered in a day. Therefore the topics covered will be spli
      -  Access Array Data with Indexes
      -  Modify Array Data with Indexes
    ❗ IMPORTANT REVIEW OBJECTS BECAUSE I CLEARLY HAVE FORGOTTEN
+   
+ [...] **Day 3** : More Arrays 
+
+-  _Topics Covered_:
+  
+-  _Extra Activities_:
+   FreeCodeCamp Excercises
+   - creating a multi-dimensional array
+   - using push(), pop(), shift() (Practice)
