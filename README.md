@@ -44,22 +44,23 @@ Most topics won't be covered in a day. Therefore the topics covered will be spli
 [✅] **Day 2** : Data storage in Arrays
 
 -  _Topics Covered_:
-     -  Different types of data that can be stored in arrays (i.e multi-dimensional)
-     -  review of push(), pop(), shift() and unshift();
+
+   -  Different types of data that can be stored in arrays (i.e multi-dimensional)
+   -  review of push(), pop(), shift() and unshift();
 
 -  _Extra Activities_:
    FreeCodeCamp Excercises
-     -  Creating a basic Array
-     -  Nesting one array in another
-     -  Access Array Data with Indexes
-     -  Modify Array Data with Indexes
-   ❗ IMPORTANT REVIEW OBJECTS BECAUSE I CLEARLY HAVE FORGOTTEN
-   
- [...] **Day 3** : More Arrays 
+   -  Creating a basic Array
+   -  Nesting one array in another
+   -  Access Array Data with Indexes
+   -  Modify Array Data with Indexes
+      ❗ IMPORTANT REVIEW OBJECTS BECAUSE I CLEARLY HAVE FORGOTTEN
+
+[✅] **Day 3** : More Arraysw
 
 -  _Topics Covered_:
-  
+
 -  _Extra Activities_:
    FreeCodeCamp Excercises
-   - creating a multi-dimensional array
-   - using push(), pop(), shift() (Practice)
+   -  creating a multi-dimensional array
+   -  using push(), pop(), shift() (Practice)
