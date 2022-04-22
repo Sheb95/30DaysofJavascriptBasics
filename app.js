@@ -105,3 +105,23 @@ const grades = ["A", "A", "C", "B", "D", "E"];
 const copyOfGrades = grades.slice();
 console.log(copyOfGrades);
 // returns an exact copy of grades array but it is not the original
+
+const AGrades = copyOfGrades.slice(0, 1);
+// rerutns new array with 1 element copied at index 0
+console.log(AGrades); //returns ["A"]
+
+//does not include 3'd index (think of it as a count)
+//for example, "from index zero, I want you to copy 3 elements"
+const threeGrades = copyOfGrades.slice(0, 3); //returns ["A", "A", "C"]
+console.log(threeGrades);
+
+const moreGrades = copyOfGrades.slice(2, 3);
+console.log(moreGrades); //returns ["C"]
+//if i did copyOfGrades.slice(2, 1), it would return an empty array
+
+const copyingGradesFromLastArray = copyOfGrades.slice(-2, -1);
+
+//fromt the third last element to the last element but new array DOES NOT INCLUDE last element
+//returns ["B", "D"]
+
+console.log(copyingGradesFromLastArray);

@@ -68,4 +68,4 @@ https://stackblitz.com/edit/js-8fm7cr?file=index.js
 -  ARRAYS ARE REFERENCE VALUES
 -  returns a brand new array (can be used to copy)
 -  can manipulate copy of array, meaning orginal array is not touched
--  copying part of array `slice(start? number, end?: nubver): number[ ]` --> returns new array which is copy of original
+-  copying part of array `slice(start? number, end?: number): number[ ]` --> returns new array which is copy of original
