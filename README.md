@@ -62,3 +62,8 @@ https://stackblitz.com/edit/js-8fm7cr?file=index.js
    -  2. `splice(start: number (from index), deleteCount? number (to index), ...items: string[ ] ): string[ ]` third argument adds items in that index place. (can also be used to replace)
 -  splice(0) will delete all items up from that specific element
 -  splice also works with a - ; goes to the last element of the array looks from the right
+
+## Slice
+
+-  ARRAYS ARE REFERENCE VALUES
+-  returns a brand new array (can be used to copy)

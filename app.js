@@ -71,3 +71,33 @@ console.log("value at index 1 has been changed.");
 
 food[0] = "oranges";
 console.log(food);
+
+// using splice
+const hobby = ["sports", "cooking", "coding"];
+// to insert elements
+//adds fishing into index 1
+hobby.splice(1, 0, "fishing");
+console.log(hobby); // returns  [ "sports", "fishing", "cooking", "coding" ]
+
+//adds "cleaning" to index 1 and replaces shifted "fishing" to "trapping"
+hobby.splice(1, 0, "cleaning", "trapping");
+console.log(hobby); //returns [ "sports", "cleaning", "trapping", "cooking", "coding" ]
+
+//deletes items from and including index 0 with a delete count of 3
+hobby.splice(0, 3);
+console.log(hobby); //returns [ "fishing", "cooking", "coding" ]
+
+//starts at end of array and deletes from and including last index 1 element
+hobby.splice(-2, 1);
+console.log(hobby); // returns [ "fishing", "cooking" ]
+
+// uncomment me:
+//removes second to last element
+// hobby.splice(-2, 1);
+// console.log(hobby); // returns ["fishing, "coding"]
+
+//delete items
+hobby.splice(0);
+console.log(hobby); //returns [ ]
+
+//Selecting copies and creating copies with slice
