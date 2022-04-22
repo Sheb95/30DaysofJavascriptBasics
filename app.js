@@ -125,3 +125,38 @@ const copyingGradesFromLastArray = copyOfGrades.slice(-2, -1);
 //returns ["B", "D"]
 
 console.log(copyingGradesFromLastArray);
+
+//Retrieving indexes with indexOf() and lastIndexOf()
+
+const names = ["Pop Smoke", "Nas", "J Cole", "Tupac", "Doja Cat", "Kendrick"];
+
+const foundTupacIndex = names.indexOf("Tupac"); //returns 3
+
+console.log(foundTupacIndex);
+// index of returns number. if it reurns -1 then item not found
+
+//indexOf(searchElement, fromIndex)
+
+const findColeFrom = names.indexOf("J Cole", 4);
+
+console.log(findColeFrom);
+// returns -1 because J Cole cannot be found form Index 4
+
+//MDN docs example
+//finding the occurance of an element
+
+const array = ["dog", "cat", "cat", "fish", "cat", , "snake", "snail"];
+
+const indicesOfCats = [];
+const element = "cat";
+
+let indexOfEachCat = array.indexOf(element);
+
+while (indexOfEachCat != -1) {
+   //put the index of cat in the indicesOfCats array
+   indicesOfCats.push(indexOfEachCat);
+   //find "cat" from next index (thats why we increment by + 1)
+   indexOfEachCat = array.indexOf(element, indexOfEachCat + 1);
+}
+
+console.log(indicesOfCats); // returns [ 1, 2, 4 ]
