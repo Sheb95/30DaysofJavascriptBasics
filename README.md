@@ -56,7 +56,7 @@ Most topics won't be covered in a day. Therefore the topics covered will be spli
    -  Modify Array Data with Indexes
       ❗ IMPORTANT REVIEW OBJECTS BECAUSE I CLEARLY HAVE FORGOTTEN
 
-[✅] **Day 3** : More Arraysw
+[✅] **Day 3** : More Arrays
 
 -  _Topics Covered_:
 
@@ -64,3 +64,12 @@ Most topics won't be covered in a day. Therefore the topics covered will be spli
    FreeCodeCamp Excercises
    -  creating a multi-dimensional array
    -  using push(), pop(), shift() (Practice)
+
+[✅] **Day 4** : Slice, Splice and Intro to Useful Array methods
+
+-  _Topics Covered_:
+   -  How to use slice ( ❗)
+   -  How to use splice
+   -  The difference between slice and splice
+   -  Retriving the index of an element in array with indexOf() method
+-  _Extra Activities_:
