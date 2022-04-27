@@ -196,3 +196,12 @@ prices.forEach((price, index, prices) => {
 });
 
 console.log(taxAdjustedPrices);
+
+////  creating new array with map
+
+const mappedArray = prices.map((price, index, prices) => {
+   const priceObj = { index: index, noTax: price, addedTax: price * (1 + tax) };
+   return priceObj;
+});
+
+console.log(mappedArray);
