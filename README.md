@@ -74,8 +74,10 @@ Most topics won't be covered in a day. Therefore the topics covered will be spli
    -  Retriving the index of an element in array with indexOf() method
 -  _Extra Activities_:
 
-[...] **Day 5** :
+[✅] **Day 5** Array Methods :
 
 -  _Topics Covered_:
-
+   -  forEach method
+   -  transforming data with map method
+   -  sorting and reversing
 -  _Extra Activities_:
