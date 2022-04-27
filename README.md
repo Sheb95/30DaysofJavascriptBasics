@@ -73,3 +73,9 @@ Most topics won't be covered in a day. Therefore the topics covered will be spli
    -  The difference between slice and splice
    -  Retriving the index of an element in array with indexOf() method
 -  _Extra Activities_:
+
+[...] **Day 5** :
+
+-  _Topics Covered_:
+
+-  _Extra Activities_:
