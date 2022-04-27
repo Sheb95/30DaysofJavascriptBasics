@@ -185,3 +185,14 @@ console.log(foundAgain);
 //// for each
 
 const prices = [10.99, 5.99, 3.99, 6.59];
+/// we wan to add VAT to each price in the array
+const tax = 0.19;
+const taxAdjustedPrices = [];
+
+prices.forEach((price, index, prices) => {
+   //creates object
+   const priceObj = { index: index, noTax: price, addedTax: price * (1 + tax) };
+   taxAdjustedPrices.push(priceObj);
+});
+
+console.log(taxAdjustedPrices);
