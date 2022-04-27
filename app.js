@@ -205,3 +205,11 @@ const mappedArray = prices.map((price, index, prices) => {
 });
 
 console.log(mappedArray);
+
+//sorting and reversing
+
+// we want to sort mapped array by added tax
+
+const sorted = mappedArray.sort((a, b) => a.addedTax - b.addedTax);
+
+console.log(sorted);
