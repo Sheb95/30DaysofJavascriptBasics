@@ -107,7 +107,7 @@ console.log(copyOfGrades);
 // returns an exact copy of grades array but it is not the original
 
 const AGrades = copyOfGrades.slice(0, 1);
-// rerutns new array with 1 element copied at index 0
+// returns new array with 1 element copied at index 0
 console.log(AGrades); //returns ["A"]
 
 //does not include 3'd index (think of it as a count)
@@ -160,3 +160,28 @@ while (indexOfEachCat != -1) {
 }
 
 console.log(indicesOfCats); // returns [ 1, 2, 4 ]
+
+/// finding stuff --> when index of does not work
+
+const profile = [{ name: "Max" }, { name: "Manuel" }];
+
+// method 1 --> findIndex
+
+// find index of element that has a name property equal to "Manuel"
+const found = profile.findIndex((element) => element.name === "Manuel");
+
+console.log(found);
+
+//method two --> find
+
+//third argument passes full array
+const foundAgain = profile.find((person, index, persons) => {
+   return person.name === "Manuel";
+});
+
+//important ---> find does not create a copy
+console.log(foundAgain);
+
+//// for each
+
+const prices = [10.99, 5.99, 3.99, 6.59];
