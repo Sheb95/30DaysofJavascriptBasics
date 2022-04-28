@@ -213,3 +213,11 @@ console.log(mappedArray);
 const sorted = mappedArray.sort((a, b) => a.addedTax - b.addedTax);
 
 console.log(sorted);
+
+//the -1 thing --> but using ternary operator instead
+
+const sortedPrices = mappedArray.sort((a, b) => {
+   a > b ? 1 : a === b ? 0 : -1;
+});
+
+console.log(sortedPrices);
