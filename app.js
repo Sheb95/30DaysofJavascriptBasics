@@ -203,7 +203,7 @@ const mappedArray = prices.map((price, index, prices) => {
    const priceObj = { index: index, noTax: price, addedTax: price * (1 + tax) };
    return priceObj;
 });
-
+console.log("Mapped Array");
 console.log(mappedArray);
 
 //sorting and reversing
@@ -217,7 +217,26 @@ console.log(sorted);
 //the -1 thing --> but using ternary operator instead
 
 const sortedPrices = mappedArray.sort((a, b) => {
-   a > b ? 1 : a === b ? 0 : -1;
+   a.addedTax > b.addedTax ? 1 : a.addedTax === b.addedTax ? 0 : -1;
 });
 
+console.log("sortedPrices");
 console.log(sortedPrices);
+
+//extracting value from added tax property and creating a new array
+const taxedPriceArray = sortedPrices.map((price) => price.addedTax);
+
+//calculate sum using reduce
+const sumOfTaxedPrices = taxedPriceArray.reduce(
+   (prevValue, curValue) => prevValue + curValue,
+   0
+);
+
+console.log(sumOfTaxedPrices);
+
+//reduce on string
+const strings = ["hello", "yo", "fool"];
+
+const red = strings.reduce((prevValue, curValue) => prevValue + curValue, "");
+
+console.log(red); //returns helloyofool

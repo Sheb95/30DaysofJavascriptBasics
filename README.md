@@ -71,3 +71,12 @@ https://stackblitz.com/edit/js-8fm7cr?file=index.js
 -  copying part of array `slice(start? number, end?: number): number[ ]` --> returns new array which is copy of original
 
 ## Array Methods
+
+Reduce --> `reduce((previousValue, currentValue, currentIndex, array)`
+
+also
+`reduce((previousValue, currentValue, currentIndex, array) => { /_ ... _/ }, initialValue)
+
+reduce reduces an array to a simpler value
+
+-  function called on each value
