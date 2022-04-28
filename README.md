@@ -81,3 +81,11 @@ Most topics won't be covered in a day. Therefore the topics covered will be spli
    -  transforming data with map method
    -  sorting and reversing
 -  _Extra Activities_:
+
+[✅] **Day 6** Reduce :
+
+-  _Topics Covered_:
+   -  the reduce method
+
+_Course Change: The Complete JavaScript Course 2022: From Zero to Expert! (Udemy) (Main)_
+I changed courses because this course has coding challenges which is thus better for my learning
