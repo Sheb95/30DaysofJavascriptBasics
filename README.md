@@ -89,3 +89,11 @@ Most topics won't be covered in a day. Therefore the topics covered will be spli
 
 _Course Change: The Complete JavaScript Course 2022: From Zero to Expert! (Udemy) (Main)_
 I changed courses because this course has coding challenges which is thus better for my learning
+
+[✅] **Day 7** React using class components :
+I got distracted by a tutorial on the React docs so did that instead. The tutorial was tic-tac-toe
+-  _Topics Covered_:
+   -  this.state
+   -  props
+   -  constructing components using the class syntax
+   -  making a component interactive
